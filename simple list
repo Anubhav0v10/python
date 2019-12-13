@@ -1,0 +1,8 @@
+l=[]
+while(True):
+	a=int(input("Enter the number :"))
+	l.append(a)
+	ans=input("Do you want to enter again ?")
+	if ans in "nN":
+		break
+print(l)
