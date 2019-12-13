@@ -1,0 +1,14 @@
+l=[]
+while(True):
+    l1=[]
+    while(True):
+        a=int(input("ENter the number:"))
+        l1.append(a)
+        ans=input("enter again ?")
+        if ans in "nN":
+            break
+    l.append(l1)
+    ans=input("enter again again ?")
+    if ans in "nN":
+            break
+print(l)
