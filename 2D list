@@ -1,3 +1,4 @@
+#simple python code to create a simple 2d list by taking input from the user and print the list.
 l=[]
 while(True):
     l1=[]
