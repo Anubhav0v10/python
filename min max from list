@@ -1,0 +1,24 @@
+l=[]
+while (True):
+    a=int(input("Enter the numbers"))
+    l.append(a)
+    ans=input("do you wnat to enter again ?")
+    if ans in 'nN':
+        break
+
+min=l[0]
+for i in range(0,len(l)):
+        if min>l[i]:
+                min=l[i]
+print(l)
+print(min)
+
+max=l[0]
+for i in range(0,len(l)):
+        if max<l[i]:
+                max=l[i]
+print(l)
+print(max)
+
+print("the diff btw the max and min is=",max-min)
+	
